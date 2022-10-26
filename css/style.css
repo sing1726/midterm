@@ -1,0 +1,147 @@
+
+
+body{
+    background-color: #aad4cf;
+   font-family: arial;
+}
+.container{
+    background-color: #d4e9e7;
+    width: 1025px;
+    margin: 0 auto;
+}
+.centered{
+position: absolute;
+top: 23%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 68px;
+color: white;
+margin: 0 auto;
+}
+nav ul{
+    list-style-type: none;
+    font-size: 25pt;
+}
+nav li{
+    float: left;
+    width: 33%;
+    padding-top: 0pt;
+    padding-bottom: 15pt;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+h2{
+    font-size: 40pt;
+}
+#img2{
+    float: left;
+    height: 252pt;
+    width: 248pt;
+    margin-top: 23pt;
+    margin-bottom: 34pt ;
+    margin-left: 11pt ;
+    margin-right: 19pt ;
+}
+nav li:hover{
+    background-color: skyblue;
+}
+nav li:active{
+    background-color: #ffffff;
+}
+.text{
+    text-align: justify;
+    font-size: 15pt;
+    margin-right: 19pt;
+    margin-left: 11pt;
+}
+h3{
+    font-size: 31pt;
+}
+.list{
+    font-size: 16pt;
+}
+#form{
+        padding: 10px;
+        margin: 10px;
+}
+nav li:hover {
+    background-color: #6bc4f5;
+    color: black;
+}
+.name{
+    font-size: 19pt;
+}
+.mail{
+    font-size: 19pt;
+}
+.message{
+    font-size: 19pt;
+}
+p{
+    font-size: 25pt;
+}
+label{
+    font-size: 19pt;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.borderline{
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+input[type='text']{
+    box-sizing: border-box;
+    width: 100%;
+    height: 29px;
+    border: 1px solid black;
+    margin-bottom: 12px;
+    padding: 7px;
+}
+button{
+    padding: 2px;
+    font-size: 13pt;
+    background-color:  #d4e9e7;
+    height: 38pt;
+    width: 54pt;
+    margin-bottom: 16px;
+}
+textarea{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    border: .5px solid black ;
+    margin-bottom: 2px;
+}
+h2, h3{
+ margin-left: 10pt;
+}
+h2{
+    margin-top: 5px;
+}
+.radio{
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: skyblue;
+}
+header nav a:link{
+    text-decoration: none;
+    color: rgb(9, 9, 9);
+    border-right: 1px solid black;
+}
+main .container{
+margin-bottom: 10pt;
+}
+footer{
+    margin-bottom: 13px;
+}
+footer div{
+    font-size: 13px;
+    text-align: right;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
